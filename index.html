@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Pokémon</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s;
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        .controls {
+            margin-top: 20px;
+        }
+        button {
+            margin: 0 10px;
+            padding: 10px 20px;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Visualizador de Pokémon</h1>
+        <img id="pokemonImage" src="" alt="Pokémon">
+        <div class="controls">
+            <button id="prevBtn">Voltar</button>
+            <button id="nextBtn">Avançar</button>
+        </div>
+    </div>
+</body>
+</html>
